@@ -1,8 +1,6 @@
 <html lang="en-US"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/ProjectRD/assets/css/style.css?v=1cdfe6aba1b72bb542281fabc640fd1764be7296">
-    <link rel="stylesheet" type="text/css" href="/ProjectRD/assets/css/print.css" media="print">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -21,12 +19,34 @@
     {"headline":"Project Reticle Dodge (PRD)","@type":"WebSite","url":"https://argzero.github.io/ProjectRD/","name":"ProjectRD","description":"Project Reticle Dodge","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+
+    <link rel="stylesheet" type="text/css" href="/ProjectRD/assets/css/print.css" media="print">
+    <link rel="stylesheet" href="/ProjectRD/assets/css/style.css?v=1cdfe6aba1b72bb542281fabc640fd1764be7296">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="BuildData/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "BuildData/RDM.json", {onProgress: UnityProgress});
     </script>
+    <style type="text/css">
+      *{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        line-height: 2;
+        transition: 1s ease;
+      }
+      a{
+        color:orange;
+        transition: 1s ease;
+      }
+      *:hover{
+        color:yellow;
+        transition: 1s ease;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,16 +55,10 @@
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">ProjectRD</div>
       </div>
     </div>
     <div id="container">
       <div class="inner">
-
-        <header>
-          <h1>Project Reticle Dodge (PRD)</h1>
-          <h2>Project Reticle Dodge</h2>
-        </header>
         <section id="downloads" class="clearfix">
           
 	
