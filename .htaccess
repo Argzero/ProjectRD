@@ -1,0 +1,15 @@
+
+RewriteEngine on
+DirectoryIndex index.shtml index.html site-down.html
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 minutes"
+</IfModule>
+Header set Cache-Control no-cache
+RewriteCond %{HTTP_HOST} ^email\.argzero\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.email\.argzero\.org$
+RewriteRule ^/?$ "https\:\/\/server144\.web\-hosting\.com\:2096\/" [R=301,L]
+
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+Options Indexes FollowSymLinks Includes
