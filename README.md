@@ -1,6 +1,6 @@
 ## Project Reticle Dodge (PRD)
 
-[http://argzero.org](Go to my website, here)
+![http://argzero.org](Website)
 
 <!--Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.-->
 
