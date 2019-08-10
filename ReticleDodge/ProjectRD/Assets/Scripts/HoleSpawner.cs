@@ -13,7 +13,7 @@ public class HoleSpawner : MonoBehaviour
     public float MaxSpawnSpeed = 20f;
     public List<ObjectTimePair> OTPairs;
     public List<GameObject> Pool;
-    public int PoolSize = 10;
+    public int PoolSize = 20;
     public int PoolIndex = 0;
     public Quaternion DefaultQuat;
     public Vector3 DefaultPos;
@@ -120,7 +120,7 @@ public class HoleSpawner : MonoBehaviour
                 pQuad.y *= -1;
 
             if (pQuad==posQuad) {
-                p.Obj.transform.position+=Vector3.one*Mathf.Infinity;
+                p.Obj.transform.position+=Vector3.one*1000f;
                 KillPairs.Add(i);
             }
             i++;

@@ -1261,7 +1261,7 @@ MonoBehaviour:
   SpawnSpeed: 20
   MaxSpawnSpeed: 0
   Pool: []
-  PoolSize: 10
+  PoolSize: 40
   PoolIndex: 0
   DefaultQuat: {x: 0, y: 0, z: 0, w: 0}
   DefaultPos: {x: 0, y: 0, z: 0}
