@@ -1058,7 +1058,7 @@ MonoBehaviour:
   BG: {fileID: 541721880}
   Width: 3
   Height: 3
-  Mode: 0
+  Mode: 1
 --- !u!61 &1162519276
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -1,114 +1,81 @@
-<html lang="en-US"><head>
+<!doctype html>
+<html lang="en-us">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <style type="text/css">
-      *{
-        background-color: black;
-        color: white;
-        width:80%;
-        height: auto;
-        padding: 0px;
-        margin: 0 auto;
-        text-align: center;
-        text-decoration: none;
-        position: relative !important;
-        margin:0 auto;
-        line-height: 2;
-        transition: 1s ease;
-      }
-      a{
-        color:orange;
-        transition: 1s ease;
-      }
-      *:hover{
-        color:yellow;
-        transition: 1s ease;
-      }
-      div{text-align: center;}
-      div > div{display: inline-block;}
-      #gameContainer{
-        background-color: black;
-        border-style: none;
-        border-width: 0px;
-        border-color: black;
-        height: auto;
-        width: auto;
-      }
-    </style>
-
-    <!-- Begin Jekyll SEO tag v2.5.0 -->
-    <title>Project Reticle Dodge (PRD) | ProjectRD</title>
-    <meta name="generator" content="Jekyll v3.8.5">
-    <meta property="og:title" content="Project Reticle Dodge (PRD)">
-    <meta property="og:locale" content="en_US">
-    <meta name="description" content="Project Reticle Dodge">
-    <meta property="og:description" content="Project Reticle Dodge">
-    <link rel="canonical" href="https://argzero.github.io/ProjectRD/">
-    <meta property="og:url" content="https://argzero.github.io/ProjectRD/">
-    <meta property="og:site_name" content="ProjectRD">
-    <script type="application/ld+json">
-    {"headline":"Project Reticle Dodge (PRD)","@type":"WebSite","url":"https://argzero.github.io/ProjectRD/","name":"ProjectRD","description":"Project Reticle Dodge","@context":"http://schema.org"}
-    </script>
-    <!-- End Jekyll SEO tag -->
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-
-    <link rel="stylesheet" type="text/css" href="/ProjectRD/assets/css/print.css" media="print">
-    <link rel="stylesheet" href="/ProjectRD/assets/css/style.css?v=1cdfe6aba1b72bb542281fabc640fd1764be7296">
-    <script src="TemplateData/UnityProgress.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Project RD</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="TemplateData/UnityProgress.js"></script>  
     <script src="BuildData/UnityLoader.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <style>
+        body {
+            padding: 0;
+            background-color: #0b0400;
+        }
+
+        #gameContainer{
+          width: 80%; 
+          height: 80%;
+          position:fixed !important; 
+          text-align: center; 
+          left: 10%;
+          margin-left: -10vw; 
+          top: 10%; 
+          margin-top:10%;
+          background-image: url("icon.png");
+          background-position: middle center;
+          background-size: 300px 300px;
+          background-repeat: no-repeat;
+          background-color: #0b0400 !important;
+        }
+
+        img.center{
+          position: absolute !important;
+          margin: 0 auto;
+          width: 30%;
+          height: auto;
+          left:50%;
+          margin-left: -50%;
+          top: 35% !important;
+          margin-top:-50%;
+        }
+
+        .progress{
+          position:fixed; !important;
+          width: 80vw;
+          top: 10%; 
+          margin-top:10%;
+          background-color: #FFA773;
+          color: #FF5F00;
+        }
+
+        .empty{
+          background-color: #FFA773;
+          display: inline-block;
+        }
+        .full{
+          background-color: #FF8740;
+          display: inline-block;
+        }
+        .progressText{
+          position: absolute;
+          display: block;
+          color: #FF6c51;
+          font-size: 24px;
+          left: 50%;
+          margin-left: -50%;
+          text-align: center;
+          font-family: Ubuntu, sans-serif; 
+        }
+    </style>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "BuildData/RDM.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "BuildData/Build.json", {onProgress: UnityProgress});
     </script>
   </head>
-
   <body>
-  	
-    <div id="container">
-      <div class="webgl-content" style="height: auto; width: auto;">
-        <div id="gameContainer" style="width: 500px; margin-top: 20px;"></div>
-        <div class="footer">
-          <div class="webgl-logo"></div>
-          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        </div>
-      </div>
-      <div class="inner">
-        <section id="downloads" class="clearfix">
-          
-	
-        </section>
-        <hr>
-        <section id="main_content">
-          <h2 id="project-reticle-dodge-prd">Project Reticle Dodge (PRD)</h2>
-
-<p><a href="https://argzero.org/">Website here!</a></p>
-<!--Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.-->
-
-<!--### Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for-->
-
-<!--Syntax highlighted code block-->
-
-<!--**Bold** and _Italic_ and `Code` text-->
-
-<!--[Link](url) and ![Image](src)-->
-
-<!--For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).-->
-
-<!--### Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Argzero/ProjectRD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.-->
-
-<!--### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.-->
-
-
-        </section>
-      </div>
+    <div class="webgl-content">
+      <div id="gameContainer">
     </div>
-
-    
-  
-
-</body></html>
+  </body>
+</html>
