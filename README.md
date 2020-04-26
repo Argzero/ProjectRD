@@ -1,10 +1,11 @@
 ## Project Reticle Dodge (PRD)
 
-This is the original 9 hour game jam version of the game, Project RD. Permission is granted to study the methods used here but NOT to use them to create any game which could be reasonably considered a clone or copy of this game or any of its future versions. 
+This is the original 9 hour game jam version of the game, Project RD. Permission is granted to study the methods used here but NOT to use them to create any game which could be reasonably considered a clone or copy of this game or any of its future versions. Please buy the game on the itch.io link provided and you will be able to play each version of the game upon its updated releases.
 
-You may feel free to make use of any scripts in this project in your own projects, provided you follow the above instructions, include a link to argzero.org somewhere visible in your game / project page indicating our contribution to your project, and use our logo on your contributors fade before your game starts (if you are making a game). Please contact us at forrest@argzero.org if you require our logo for this purpose. In the near future, we will be posting a repo with the associated logos. We hope this will help streamline this process.
+You may feel free to make use of any scripts (but not any of my prefabs or any other assets) in this project in your own projects, provided you follow the above instructions, include a link to argzero.org somewhere visible in your game / project page indicating our contribution to your project, and use our logo on your contributors startup fade before or while your game starts up (if you are making a game). Other assets are provided as a courtesy to you so you may see how the scripts interact with the in-game objects. Please contact us at forrest@argzero.org if you require our logo for this purpose or if this model somehow doesn't work for you. Perhaps I can offer more convenient terms under those circumstances. In the near future, we will be posting a repo with the associated logos. We hope this will help streamline this process. We will soon have a leaderboard for you to use. Please email us at the contact below if you beat the high score of 120 points!
 
-[Website here!](https://argzero.org/)
+[Landing Page Website here!](https://argzero.org/) - [Company Page Website here!](https://argzero.org/tech)
+Contact Info: forrest@argzero.org
 
 <!--Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.-->
 
