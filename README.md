@@ -7,6 +7,7 @@ You may feel free to make use of any scripts (but not any of my prefabs or any o
 [Landing Page Website here!](https://argzero.org/) - [Company Page Website here!](https://argzero.org/tech)
 Contact Info: forrest@argzero.org
 
+Please note: You must also follow the rules of the license.md file in this repository.
 <!--Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.-->
 
 <!--### Markdown
